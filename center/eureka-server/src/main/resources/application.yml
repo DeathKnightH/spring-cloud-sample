@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: eurekaserver
+server:
+  port: 8000
+eureka:
+  client:
+#   注册自身
+    register-with-eureka: ture
+    fetch-registry: true
+    service-url:
+      default-zone: http://eureka:8000/eureka,http://eureka1:8001/eureka

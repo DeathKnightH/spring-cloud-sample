@@ -1,5 +1,4 @@
 /.idea/
-/springcloudsample.iml
+*iml
 /circuit-breaker-sample/target/
-/circuit-breaker-sample/circuitbreakersample.iml
 /elasticsearch-sample/target/

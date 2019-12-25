@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: configcenter
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/DeathKnightH/JavaTest.git
+          search-paths: master
+#        本地文件系统作为配置仓库
+#        native:
+#          search-locations: file:///D:/configRepo
+server:
+  port: 8888
+eureka:
+  client:
+    server-url:
+      default-zone: http://eureka:8000/eureka

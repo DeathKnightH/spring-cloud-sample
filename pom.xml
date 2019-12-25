@@ -12,6 +12,7 @@
         <module>circuit-breaker-sample</module>
         <module>zookeeper-client-sample</module>
         <module>elasticsearch-sample</module>
+        <module>center</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -19,7 +20,7 @@
         <version>2.2.1.RELEASE</version>
     </parent>
     <properties>
-        <springcloud.version>Greenwich.SR3</springcloud.version>
+        <springcloud.version>Greenwich.SR4</springcloud.version>
     </properties>
     <dependencyManagement>
         <dependencies>
