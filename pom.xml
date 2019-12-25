@@ -13,6 +13,8 @@
         <module>zookeeper-client-sample</module>
         <module>elasticsearch-sample</module>
         <module>center</module>
+        <module>app</module>
+        <module>sample</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
