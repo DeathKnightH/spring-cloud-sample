@@ -1,0 +1,11 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka:8000/eureka
+#      为了更快获取注册信息，设置间隔时间为 5 s
+      registry-fetch-interval-seconds: 5
+  instance:
+    health-check-url-path: /actuator/health
+spring:
+  application:
+    name: admin

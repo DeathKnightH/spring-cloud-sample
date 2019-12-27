@@ -14,6 +14,7 @@
     <modules>
         <module>eureka-server</module>
         <module>config</module>
+        <module>spring-boot-admin</module>
     </modules>
 
 

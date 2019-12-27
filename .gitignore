@@ -2,3 +2,6 @@
 *iml
 /circuit-breaker-sample/target/
 /elasticsearch-sample/target/
+/center/config/target/
+/center/eureka-server/target/
+/center/spring-boot-admin/target/
